@@ -5,7 +5,7 @@ These are the steps:
 
 - The WEB-INF has a class directory containing classes to run
 - WEB-INF Must have a xml file containing configs (web.xml)
-- web.xml has a mapping using tags <servlet> and <servlet-name>
+- web.xml has a mapping using tags `<servlet>` and `<servlet-name>`
 - `<servlet>` maps a name to a class
 - `<servlet-name>` maps a url to a `<servlet>`
 - Dockerfile copy files to webapps directory and compile it to run
