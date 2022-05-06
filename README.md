@@ -7,7 +7,7 @@ These are the prereqs:
 - WEB-INF Must have a xml file containing configs (web.xml)
 - Compile javaclasses
 
-##To run
+## To run
 git clone <this-repo>
 docker build . -t hello_servlet
 docker run --rm -p 80:8080 hello_servlet
