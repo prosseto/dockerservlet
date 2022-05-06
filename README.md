@@ -11,10 +11,10 @@ These are the steps:
 - Dockerfile copy files to webapps directory and compile it to run
 
 ## To run
-git clone <this-repo>
-docker build . -t hello_servlet
-docker run --rm -p 80:8080 hello_servlet
-It starts a new simple servlet with a message response
+<p>git clone <this-repo>
+<p>docker build . -t hello_servlet
+<p>docker run --rm -p 80:8080 hello_servlet
+<p>It starts a new simple servlet with a message response
    
 ## Next steps
-- Create a way to debug this apps
+- Create a way to debug this app
